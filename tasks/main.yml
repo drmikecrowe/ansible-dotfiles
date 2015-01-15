@@ -1,0 +1,4 @@
+---
+- name: Run dotfiles installer
+  shell: curl {{ dotfiles_installer }} | /bin/bash
+  ignore_errors: True
